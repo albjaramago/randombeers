@@ -14,7 +14,7 @@ The application includes:
 1-Unitary tests.
 2-Integration tests.
 3-Swagger documentation (http://localhost:8080/swagger-ui.html)
-4-Additional funcionality: not repeated random beer in two consecutive requests.
+4-Additional functionality: not repeated random beer in two consecutive requests.
 
 
 Below, the steps to run the application:
