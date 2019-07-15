@@ -12,17 +12,24 @@ consecutive requests.
 The application includes:
 
 1-Unitary tests.
+
 2-Integration tests.
+
 3-Swagger documentation (http://localhost:8080/swagger-ui.html)
+
 4-Additional functionality: not repeated random beer in two consecutive requests.
 
 
 Below, the steps to run the application:
 
-1-Run mysql in localhost:3306
-2-Create a mysql database named as "randombeer"
-3-Execute the sql script which has been included in "randombeer\src\main\resources\randombeer_dumb.sql"
+1-Run mysql in "localhost:3306"
+
+2-Create a mysql database named as "randombeer".
+
+3-Execute the sql script which has been included in "randombeer\src\main\resources\randombeer_dumb.sql".
+
 4-Generate the .jar executing "maven install".
+
 5-Execute the generated .jarin tha appliation target folder as "java -jar randombeer-0.0.1-SNAPSHOT.jar"
 
 
